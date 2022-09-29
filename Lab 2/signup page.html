@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="signup.css" />
+ 
+
+  <style type="text/css">
+    .err_msg{
+
+       color:red;
+       text-decoration:underline;
+     }
+  </style>
+ 
+  
+ </head>
+
+ <body style="background-color:white;"></body>
+
+ 
+ <body>
+
+    <div class="signup">
+
+<h2>Create an account</h2>
+<form id="SignUp" method="post">
+<table>
+  <form action="/action_page.php"></form>
+
+  <tr><td></td><td><label id="email_msg" class="err_msg"></label></td></tr>
+  <tr><td>Email: </td><td> <input type="text" name="email" size="30"  /></td></tr>
+
+       <tr><td></td><td><label id="uname_msg" class="err_msg"></label></td></tr>
+  <tr><td>Username: </td><td> <input type="text" name="uname" size="30" /></td></tr>
+
+       <tr><td></td><td><label id="pswd_msg" class="err_msg"></label></td></tr>
+  <tr><td>Password: </td><td> <input type="password" name="pswd" size="30" /></td></tr>  
+
+        <tr><td></td><td><label id="pswdr_msg" class="err_msg"></label></td></tr>
+  <tr><td>Confirm Password: </td><td> <input type="password" name="pswdr" size="30" /></td></tr>  
+  <tr>
+    
+  </tr>
+  <tr>
+  </div>
+</table>
+  <br>
+  <tr>
+    <input type="button" value="SignUp" onclick="SignUpForm()" />
+    <input type="reset"  value="Reset" onclick="ResetForm()"/>
+  </tr>
+</br>
+<div id= "SignUp"></div>
+</tr>
+</form>
+<div id="display_info" ></div>
+
+</body>
+</html>
